@@ -3,5 +3,7 @@ module "vnet" {
   version = "2.3.0"
   # insert required variables here
   resource_group_name = "premekvala-workshop"
+  subnet_prefixes = [ "10.0.1.0/24" ]
+  vnet_name = "premekvala-vnet"
 
 }
